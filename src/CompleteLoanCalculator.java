@@ -27,7 +27,7 @@ public class CompleteLoanCalculator {
             double principal = monthlyPayment - interest;
             remainingBalance -= principal;
 
-            System.out.printf("%d\t%.2f\t%.2f\t%.2f\n", i + 1, principal, interest, remainingBalance);
+            System.out.printf("%d\t\t%.2f\t\t%.2f\t\t%.2f\n", i + 1, principal, interest, remainingBalance);
         }
 
         scanner.close();
